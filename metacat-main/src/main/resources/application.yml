@@ -32,7 +32,7 @@ metacat:
       enabled: true
   plugin:
     config:
-      location: /etc/catalog
+      location: D:/works/etc-metacat/catalog
   swagger:
     enabled: true
 

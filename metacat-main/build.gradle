@@ -88,6 +88,8 @@ dependencies {
 
 }
 
+spotbugsMain.enabled = false
+
 test {
     systemProperty "metacat.plugin.config.location", "build/resources/test/etc/catalog"
     systemProperty "metacat.usermetadata.config.location", "build/resources/test/usermetadata.properties"
